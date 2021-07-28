@@ -1,0 +1,13 @@
+/***********entete*******/
+#entete{
+
+}
+#haut-entete{
+    display: flex;
+    justify-content: space-around;
+}
+#nav-entete ul{
+    display: flex;
+    justify-content: space-around;
+
+}
