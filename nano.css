@@ -1,7 +1,4 @@
 /***********entete*******/
-#entete{
-
-}
 #haut-entete{
     display: flex;
     justify-content: space-around;
@@ -9,24 +6,25 @@
     height: 80px;
     margin: 0px;
 }
-#nav-entete ul{
+.enseigne{
+    display: flex;
+    text-align: center;
+    vertical-align: middle;
+}
+#nav-entete{
+    margin: 0px;
+    height: 20px;
+    background-color: gray;
     display: flex;
     justify-content: space-around;
-    background-color: gray;
-}
-#nav-entete ul li{
-    text-align: justify;
-    list-style: none;
-    margin: 0px;
 }
 #nav-entete a{
     text-decoration: none;
-    color: blue;
-    transition-delay: 0.3s;
+    color: rgb(51, 92, 204);
     animation-duration: 0.3s;
 }
 #nav-entete a:hover{
     color: rgb(131, 46, 15);
-    transition-duration: 0.3s;
-    
+    transition-duration: 0.3s;   
 }
+/*************************/
