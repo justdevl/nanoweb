@@ -1,8 +1,13 @@
+:root{
+    --couleur: rgba(224, 97, 12, 0.562);
+    --color: gray;
+}
+
 /***********entete*******/
 #haut-entete{
     display: flex;
     justify-content: space-around;
-    background-color: rgb(221, 114, 75);
+    background-color: var(--couleur);
     height: 80px;
     margin: 0px;
 }
@@ -14,17 +19,16 @@
 #nav-entete{
     margin: 0px;
     height: 20px;
-    background-color: gray;
+    background-color:var(--color);
     display: flex;
     justify-content: space-around;
 }
 #nav-entete a{
     text-decoration: none;
     color: rgb(51, 92, 204);
-    animation-duration: 0.3s;
+    transition: all 0.3s linear;
 }
 #nav-entete a:hover{
     color: rgb(131, 46, 15);
-    transition-duration: 0.3s;   
 }
 /*************************/
