@@ -31,4 +31,29 @@
 #nav-entete a:hover{
     color: rgb(131, 46, 15);
 }
-/*************************/
+/************slider*************/
+.slider{
+    width: 800px;
+    height: 500px;   
+   position: relative;
+   justify-content: center;
+   margin: auto;
+   padding: auto;
+   transition: all 0.3ms;
+   }
+.slide{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+	display: none;
+}
+.slide img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.active{
+	display:block;
+}
+
+/*************index*************/
