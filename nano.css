@@ -57,3 +57,16 @@
 }
 
 /*************index*************/
+.container {
+    display: none;
+}
+
+.container.active {
+    display: block;
+}
+
+#nav-entete.active {
+    color: rgb(150, 133, 133);
+}
+
+/**************************/
